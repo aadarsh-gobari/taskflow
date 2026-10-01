@@ -1,0 +1,9 @@
+# Never upload installed packages — anyone can rebuild them with "npm install"
+node_modules/
+
+# Secret settings (passwords, API keys) — we'll use this on Day 4
+.env
+
+# OS junk files
+.DS_Store
+Thumbs.db
